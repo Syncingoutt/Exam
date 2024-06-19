@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Service Admin</title>
+    <link rel="stylesheet" href="admin-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Beauty service admin panel</p>
+        </nav>
+    </header>
+    <main>
+        <section id="services">
+            <h1>Services</h1>
+            <ul>
+                <li>
+                    <h2>Facials</h2>
+                    <p>Bookings: </p>
+                    <button>Edit</button>
+                </li>
+                <li>
+                    <h2>Massage Therapy</h2>
+                    <p>Bookings:</p>
+                    <button>Edit</button>
+                </li>
+                <li>
+                    <h2>Waxing</h2>
+                    <p>Bookings:</p>
+                    <button>Edit</button>
+                </li>
+            </ul>
+        </section>
+        <section id="bookings">
+            <h1>Bookings</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Client Name</th>
+                        <th>Service</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <section id="bookings">
+                        <h1>New Booking</h1>
+                        <div id="booking-info">
+                            <!-- The form data from the user side will be displayed here -->
+                        </div>
+                    </section>
+                </tbody>
+            </table>
+        </section>
+        <section id="staff">
+            <h1>Staff</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Staff will be displayed here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Beauty Service</p>
+    </footer>
+    <script src="admin-script.js"></script>
+</body>
+</html>
